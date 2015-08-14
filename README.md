@@ -1,31 +1,7 @@
 # SolrConfigComparator
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'solr_config_comparator'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install solr_config_comparator
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/solr_config_comparator/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+WIP! This is the start of a tool meant to compare two Solr config files
+(generally one being the active one you might retrieve from the Solr server; the
+other being the one you intend to be deployed on that server), in order to
+assist with a health-check scenario by providing insight into which
+solrconfig.xml is actually active.
